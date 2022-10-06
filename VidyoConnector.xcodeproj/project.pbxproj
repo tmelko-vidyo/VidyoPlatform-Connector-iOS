@@ -11,6 +11,7 @@
 		1958A87C28EF169A00AF73F5 /* VidyoClientIOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1958A87B28EF169A00AF73F5 /* VidyoClientIOS.xcframework */; };
 		1958A87F28EF18D300AF73F5 /* BNBEffectPlayerC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1958A87E28EF18D200AF73F5 /* BNBEffectPlayerC.xcframework */; };
 		1958A88028EF18D300AF73F5 /* BNBEffectPlayerC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1958A87E28EF18D200AF73F5 /* BNBEffectPlayerC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1958A91B28EF1FE400AF73F5 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = AC97417F27E28D83007C424C /* effects */; };
 		2D6D49E934242FDBA9E30DDA /* Pods_VidyoConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD0BC0F6D822CDE9AB31831 /* Pods_VidyoConnector.framework */; };
 		AC97411227E28A3E007C424C /* VidyoConnectorVersion_.sh in Resources */ = {isa = PBXBuildFile; fileRef = AC97411127E28A3E007C424C /* VidyoConnectorVersion_.sh */; };
 		AC97417E27E28D70007C424C /* BackgroundImages in Resources */ = {isa = PBXBuildFile; fileRef = AC97417D27E28D70007C424C /* BackgroundImages */; };
@@ -209,7 +210,7 @@
 		886506F41619E01D02068E10 /* Pods-VidyoConnector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidyoConnector.release.xcconfig"; path = "Target Support Files/Pods-VidyoConnector/Pods-VidyoConnector.release.xcconfig"; sourceTree = "<group>"; };
 		AC97411127E28A3E007C424C /* VidyoConnectorVersion_.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = VidyoConnectorVersion_.sh; sourceTree = "<group>"; };
 		AC97417D27E28D70007C424C /* BackgroundImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BackgroundImages; sourceTree = "<group>"; };
-		AC97417F27E28D83007C424C /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; name = effects; path = "../../../../../frameworks/MacOS/Banuba/bnb-0.37.1/effects"; sourceTree = "<group>"; };
+		AC97417F27E28D83007C424C /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; name = effects; path = "../../VidyoClient-iOSSDK/lib/ios/Banuba/effects"; sourceTree = "<group>"; };
 		ACE893B527E23E7F008990C3 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		ACE893DC27E2406D008990C3 /* VidyoConnector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VidyoConnector.entitlements; sourceTree = "<group>"; };
 		B0AA1F2A30AC774BD5AC7676 /* Pods-VidyoConnector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidyoConnector.debug.xcconfig"; path = "Target Support Files/Pods-VidyoConnector/Pods-VidyoConnector.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1039,6 +1040,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1958A91B28EF1FE400AF73F5 /* effects in Resources */,
 				AC97411227E28A3E007C424C /* VidyoConnectorVersion_.sh in Resources */,
 				F12BFA5926DBED79001404B8 /* BackgroundCollectionViewCell.xib in Resources */,
 				F196930B267B8AF600A08F88 /* SettingsTableViewCell.xib in Resources */,
