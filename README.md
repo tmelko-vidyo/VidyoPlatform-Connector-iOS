@@ -2,7 +2,7 @@
 
 ## Setup VidyoClient SDK
 
-1. Download the latest VidyoClient iOS SDK package [22.5.0.8](https://static.vidyo.io/22.5.0.8/package/VidyoClient-iOSSDK.zip) and unzip it.
+1. Download the latest VidyoClient iOS SDK package [22.6.0.4](https://static.vidyo.io/22.6.0.4/package/VidyoClient-iOSSDK.zip) and unzip it.
 2. Copy VidyoClient-iOSSDK folder to the project root folder
 
 ![Screenshot 2022-10-06 at 17 49 19](https://user-images.githubusercontent.com/38790517/194345036-611ee47e-d2a3-40e7-9431-921b031bc0f1.png)
